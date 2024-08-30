@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#f5cf06;
+    --secondary-color: #8e4106;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    padding-inline: 64px;
+    font-family: "Righteous", sans-serif;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+   
+}
+
+header a{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 100%;
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+header div{
+    display: flex;
+    gap: 24px;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+}
+
+.title{
+    position: relative;
+    color: white;
+}
+
+.title h1{
+    font-size: 20vw;
+    text-align: center;
+    
+}
+
+.title span{
+    position: absolute;
+    font-size: 24vw;
+    top: -35%;
+    left: 0;
+    opacity: 0.3;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container div{
+    width: 50%;
+    color: var(--secondary-color);
+}
+.container h2{
+    font-size: 4vw;
+}
+
+.container p{
+    font-size: 1.5vw;
+    width: 40vw;
+}
+
+.action{
+    display:flex;
+    justify-content: end;
+}
+.action a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: var(--secondary-color);
+    color:white;
+    font-size: 64px;
+}
+
+.container span{
+    font-size: 1.5vw;
+    width: 400vw;
+}
+footer{
+    height: 50px;
+    text-align: center;
+    color:var(--secondary-color);
+    font-style: italic;
+}
+
+.pikachu-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 75vh;
+}
+/* :root variável geral, vale em todas as outras tags (escopo global) */
+/* vh - altura na janela (visible height) 
+100 vw - largura da janela */
