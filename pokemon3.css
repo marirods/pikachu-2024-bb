@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color:hsl(46, 55%, 76%);
-    --secondary-color: #423127;
+    --primary-color:hsl(300, 47%, 84%);
+    --secondary-color: #66afe0;
 }
 
 a{
@@ -56,7 +56,7 @@ main{
 }
 
 .title h1{
-    font-size: 21vw;
+    font-size: 19vw;
     text-align: center;
     
     
@@ -64,7 +64,7 @@ main{
 
 .title span{
     position: absolute;
-    font-size: 24vw;
+    font-size: 21vw;
     top: -35%;
     left: 0;
     opacity: 0.3;
@@ -114,13 +114,10 @@ footer{
     font-style: italic;
 }
 
-.meowth-image{
+.JigglyPuff-image{
     position: absolute;
     top: 50%;
     left: 55%;
-    transform: translate(-50%, -49%);
-    height: 75vh;
+    transform: translate(-50%, -50%);
+    height: 70vh;
 }
-/* :root variável geral, vale em todas as outras tags (escopo global) */
-/* vh - altura na janela (visible height) 
-100 vw - largura da janela */
