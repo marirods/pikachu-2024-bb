@@ -1,6 +1,6 @@
 # Landing Page - Let's Go, Pikachu
 
-![](./img/image.png)
+![](./img/pikachu%20i.jpeg)
 
 ---
 
