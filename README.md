@@ -20,4 +20,4 @@ Site do tipo landing page para divulgar o jogo "Let's Go, Pickachu!" O objetivo 
 ---
 
 ## Autor
-- [Mariane Rodrigues] (https://www.linkedin.com/in/mariane-rodrigues-93a02a25b/)
+- [Mariane Rodrigues](https://www.linkedin.com/in/mariane-rodrigues-93a02a25b/)
